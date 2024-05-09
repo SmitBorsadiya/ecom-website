@@ -1,17 +1,12 @@
-import './App.css';
-import { addToCart } from './redux/action';
-import {useDispatch} from 'react-redux';
+import "./App.css";
+import Header from "./Components/Header";
+import Main from "./Components/Main";
 
 function App() {
-  const dispatch = useDispatch();
-  const data = {
-    phone:"Oppo",
-    price:15000,
-    color:"blue"
-  }
   return (
-    <div className="App">
-      <button onClick={()=>dispatch(addToCart(data))}>Add To Cart</button>
+    <div>
+      <Header />
+      <Main />
     </div>
   );
 }
