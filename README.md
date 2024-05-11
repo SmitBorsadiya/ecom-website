@@ -1,4 +1,4 @@
-# Used json-server API for fetching and displaying data
+Used json-server API for fetching and displaying data
 
 # Getting Started with Create React App
 
